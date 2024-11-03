@@ -1,0 +1,58 @@
+body {
+    background-color: #262728;
+    font-family: 'Dansing script', cursive;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.container {
+    padding: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 5px #fff;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    
+}
+form input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+form textarea {
+    border-radius: 10px;
+    text-align: center;
+}
+form button {
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(36, 84, 167);
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+  
+}
